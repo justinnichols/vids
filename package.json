@@ -1,6 +1,6 @@
 {
   "name": "vids",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A minimalistic video player of web URL-based videos.",
   "main": "src/main.js",
   "scripts": {
