@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #444444;
+    color: #FFFFFF;
+    -webkit-app-region: drag;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.hover-container {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #444444;
+    padding: 10px;
+}
+
+.fill {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}

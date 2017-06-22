@@ -1,0 +1,40 @@
+{
+  "name": "vids",
+  "version": "1.0.0",
+  "description": "A minimalistic video player of web URL-based videos.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npm install && electron .",
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": "https://github.com/justinnichols/vids",
+  "keywords": [
+    "Video",
+    "Player",
+    "YouTube"
+  ],
+  "author": "Justin Nichols <justin@nichols.mobi>",
+  "license": "GPL v3.0",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-builder": "^17.8.0"
+  },
+  "build": {
+    "appId": "vids",
+    "linux": {
+      "target": [
+        "AppImage",
+        "snap",
+        "deb"
+      ]
+    },
+    "win": {
+      "icon": "build/icon.ico"
+    }
+  }
+}
