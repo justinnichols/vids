@@ -16,7 +16,7 @@
     "YouTube"
   ],
   "author": "Justin Nichols <justin@nichols.mobi>",
-  "license": "GPL v3.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "jquery": "^3.2.1"
   },
